@@ -9,19 +9,19 @@
   }
 
   a {
-    @apply text-emerald-700 underline
-        decoration-emerald-700/60 decoration-2
-        hover:decoration-emerald-700 hover:bg-emerald-200
-        outline-0 focus:ring-2 focus:ring-offset-1 focus:ring-emerald-500;
+    @apply text-nmBlue underline
+        decoration-nmBlue/60 decoration-2
+        hover:decoration-nmBlue hover:bg-nmLightBlue
+        outline-0 focus:ring-2 focus:ring-offset-1 focus:ring-nmDarkBlue;
   }
 
   ::selection {
-    @apply bg-emerald-200 text-emerald-950;
+    @apply bg-nmLightBlue text-nmDarkBlue;
   }
 
   button:focus,
   input:focus {
-    @apply outline-0 ring-2 ring-offset-1 ring-emerald-500 caret-emerald-500;
+    @apply outline-0 ring-2 ring-offset-1 ring-nmDarkBlue caret-nmDarkBlue;
   }
 
   label,
@@ -34,10 +34,11 @@
   h2,
   h3,
   h4 {
-    @apply text-balance;
+    @apply text-nmBlue;
   }
 
   p {
-    @apply text-pretty;
+    @apply text-nmDarkBlue;
   }
 }
+
